@@ -41,7 +41,7 @@ def Hamiltonian(in_file, OutFile):
 
     print([hem_1_ord, hem_higher_ord, 0])
 
-    with open('Hem_out.pickle', 'wb') as f:
+    with open('in_file', 'wb') as f:
         pickle.dump([hem_1_ord, hem_higher_ord, 0], f)
 
 
